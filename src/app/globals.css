@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #1CBCCF;
+  --primary-color-200: #E8F0F1;
+  --primary-color-400: #c4e9ed;
+  --primary-color-500: #90c6cd;
+  --dark-color: #4C5354;
+  --accent-color: #333333;
+  --gray-color: #777F81;
+  --gray-300: #DCDCDC;
+  --cadet-blue: #9AB4B7;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-poppins), sans-serif;
+  color: var(--accent-color);
+  background-color: #ffffff;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-cadet-blue {
+    color: var(--cadet-blue);
+  }
+}
